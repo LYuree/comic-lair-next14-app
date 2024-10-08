@@ -17,10 +17,10 @@ const ProductCard: React.FC<ProductCardProps> = (({data}) => {
     ">
         <div className="aspect-[6:9] relative overflow-hidden">
             <Image
-            // width={80}
-            // height={160}
+            width={210}
+            height={320}
             className="w-full h-full object-contain" //uncomment to see the result
-            src={cover}
+            src={data.images[0].image}
             // src="/app/images/banner1.png"
             alt={data.name}
             />

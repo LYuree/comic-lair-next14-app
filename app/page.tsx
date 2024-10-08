@@ -5,6 +5,7 @@ import { products } from "@/utils/products";
 import { truncateText } from "@/utils/truncateText";
 import ProductCard from "./components/products/ProductCard";
 
+
 export default function Home() {
   return (
     <Container>
@@ -19,7 +20,7 @@ export default function Home() {
       2xl:grid-cols-6 gap-8">
         {products.map((product: any) => {
           // return ( <div>{truncateText(product.name)}</div>)
-          return ( <ProductCard data={product}></ProductCard> )
+          return ( <ProductCard key={product.id} data={product}></ProductCard> )
         })}
       </div>
     </Container>

@@ -12,13 +12,13 @@ export const products = [
       images: [
         {
           image:
-            "/app/images/ipsum.webp",
+            "/ipsum.png",
         },
       ],
       reviews: [],
     },
     {
-        id: "64a654593e91b8e73a351e9b",
+        id: "64a4ebe300900d44bb50628a",
         name: "Ipsum-Man: The Long Way Home #1",
         description: "Short description",
         price: 2999,
@@ -28,12 +28,12 @@ export const products = [
         images: [
           {
             image:
-              "/app/images/ipsum-man-joins-amet-avenger-210-320-V2.webp",
+              "/ipsum.webp",
           },
         ],
         reviews: [],
       },{
-        id: "64a654593e91b8e73a351e9b",
+        id: "64a65a6158b470c6e06959ee",
         name: "Ipsum-Man: The Long Way Home #1",
         description: "Short description",
         price: 2999,
@@ -43,12 +43,12 @@ export const products = [
         images: [
           {
             image:
-              "/app/images/ipsum-man-joins-amet-avenger-210-320-V2.webp",
+              "/ipsum.webp",
           },
         ],
         reviews: [],
       },{
-        id: "64a654593e91b8e73a351e9b",
+        id: "648437b38c44d52b9542e340",
         name: "Ipsum-Man: The Long Way Home #1",
         description: "Short description",
         price: 2999,
@@ -58,12 +58,12 @@ export const products = [
         images: [
           {
             image:
-              "/app/images/ipsum-man-joins-amet-avenger-210-320-V2.webp",
+              "/ipsum.webp",
           },
         ],
         reviews: [],
       },{
-        id: "64a654593e91b8e73a351e9b",
+        id: "6499b4887402b0efd394d8f3",
         name: "Ipsum-Man: The Long Way Home #1",
         description: "Short description",
         price: 2999,
@@ -73,7 +73,7 @@ export const products = [
         images: [
           {
             image:
-              "/app/images/ipsum-man-joins-amet-avenger-210-320-V2.webp",
+              "/ipsum.webp",
           },
         ],
         reviews: [],
